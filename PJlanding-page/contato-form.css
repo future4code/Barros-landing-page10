@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#titulo{
+    font-family: sans-serif;
+    color: white;
+    margin-left: 5%;
+}
+#sub-titulo{
+    font-family: sans-serif;
+    color: white;
+    margin-left: 5%;
+}
+fieldset{
+    border: 0;
+}
+body{
+    background-image: url(IMG/4safe.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 1em;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+     
+     
+}
+input,textarea,button{
+    border-radius: 5px;
+
+}
+div{
+    margin-bottom: 1em;
+}
+label{
+    margin-bottom: 0.3em;
+    color: white;
+}
+fieldset{
+    float: left;
+    margin-right: 1em;
+}
+input,textarea{
+    padding: 0.2em;
+border: 1px solid white;
+box-shadow: 1px 1px 1px 1px;
+display: block;
+}
+button{
+    border: 2px solid rgb(166, 229, 109);
+    padding: 10px;
+    border-radius: 15px;
+ background-color: rgb(166, 229, 109);
+}
+
+button:hover{
+    background-color: rgb(166, 229, 109);
+    color: white;
+
+}
+
+.redes-sociais{
+    font-family: sans-serif;
+    margin-left: 15%;
+    border: 2px 2px 2px 2px;
+    color: aliceblue;
+}
+.Titulo-empresa{
+    color: rgb(166, 229, 109);
+    display: grid;
+    justify-content: flex-start;
+   
+    
+}
+.navegação-pr { 
+    color: white;
+    display: flex;
+    justify-content: right;
+    align-items: row;
+    justify-content: space-between;
+
+}
+.inscreva{
+    border: 2px solid rgb(166, 229, 109);
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+}
+.inscreva:hover{
+    background-color: rgb(166, 229, 109);
+    color: white;
+}
+footer{
+    justify-content: baseline;
+}
