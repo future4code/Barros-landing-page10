@@ -1,0 +1,23 @@
+body {
+    background-image: url(img/4safe.png);
+    background-repeat: repeat;
+    
+}
+
+#container {
+    text-align: center;
+    word-wrap: normal;
+}
+
+h1 {
+    color: white;
+}
+
+#container-logos {
+    display: flex;
+   flex-wrap: wrap;
+    padding:  20px;
+}
+hr {
+    
+}
