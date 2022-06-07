@@ -1,0 +1,66 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#title{
+    flex-direction: column;
+    line-height: 10px;
+    color: white;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(166, 229, 109);
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn{
+    border: 2px solid rgb(166, 229, 109);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: rgb(166, 229, 109);
+    color: white;
+}
+body{
+    background-color:rgb(59, 79, 102);
+    background-image: url(IMG/4safe.png);
+    background-repeat: no-repeat;
+   
+    
+}
+button:hover {
+    background-color: rgb(166, 229, 109);
+    color:white;
+}
+
+button{
+    border: 2px solid rgb(166, 229, 109);
+    padding: 10px;
+    border-radius: 15px;
+
+}
+.sub-titulo{
+    color: rgb(166, 229, 109);
+}
+.sub1{
+    color: white;
+}
+.sub2{
+    color: rgb(166, 229, 109);
+}
+p{
+    font-size: larger;
+    color:white
+}
