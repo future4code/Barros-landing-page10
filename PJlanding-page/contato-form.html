@@ -1,70 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contato-form.css">
-    <title>4Safe-Seguros-Form/contato</title>
-    <!-- navegação-->
+    <link rel="stylesheet" href="contato-form.css"/>
+    <title>4SAFE-Auto</title>
 </head>
+<body>
     <header>
+        <div id="title">
+            <h1>4SAFE</h1>
+            <h1>SEGUROS</h1>
+        </div>
 
-        <H1 class="Titulo-empresa">4SAFE</H1>
-        <H1 class="Titulo-empresa">SEGUROS</H1>
-        <Nav class="navegação-pr">
-            <div id="title">
-                <h1>4SAFE</h1>
-                <h1>SEGUROS</h1>
-            </div>
-    
-            <ul>
-                <a href="#"><li>Início</li></a>
-                <a href="#"><li>Serviços</li></a>
-                <a href="#"><li>Sobre</li></a>
-                <a href="#"><li>Contato</li></a>
-                <a href="#" id="inscreva-se-btn"><li>Já tem uma conta?</li></a>
-            </ul>
-            
-                
-           
-
-           
-            
-        </Nav>
+        <ul>
+            <a href="#"><li>Início</li></a>
+            <a href="#"><li>Serviços</li></a>
+            <a href="#"><li>Sobre</li></a>
+            <a href="#"><li>Contato</li></a>
+            <a href="#" id="inscreva-se-btn"><li>Já tem uma conta?</li></a>
+        </ul>
     </header>
 
 
 <body>
     <div>
-        <h1 id="titulo">Formulario de contato</h1>
-        <p id="sub-titulo"><strong>Preencha suas informações</strong></p>
+        <h1 id="contato-form">Formulario de contato</h1>
+        <p id="info"><strong>Preencha suas informações</strong></p>
         <br>
     </div>
     <form action="">
         <fieldset class="dados-usuario">
             <div>
                 <!-- Parte dos textos-->
-                <label for="Nome"><strong>Nome</strong></label>
+                <label for="Nome"><strong>Nome :</strong></label>
                 <input type="text" name="nome" id="nome" required>
             </div>
             <div>
-                <label for="Sobrenome"><strong>Sobrenome</strong></label>
+                <label for="Sobrenome"><strong>Sobrenome :</strong></label>
                 <input type="text" name="sobrenome" id="sobrenome" required>
             </div>
             <div>
-                <label for="Telefone"><strong>Telefone</strong></label>
+                <label for="Telefone"><strong>Telefone :</strong></label>
                 <input type="number" name="celular" id="Celular" required>
             </div>
         </fieldset>
         <div>
-            <label for="Email"><strong>Email</strong></label>
+            <label for="Email"><strong>Email :</strong></label>
             <input type="email" name="email" id="email">
         </div>
         <div>
             <!-- Parte dos radios-->
-            <label for="geneer"><strong>Seu gênero</strong></label>
+            <label for="geneer"><strong>Seu gênero :</strong></label>
             <label for="">
                 <input type="radio" name="masc" value="masculino">Masculino
             </label>
@@ -78,7 +66,7 @@
         <!-- Parte dos checkbox-->
         <fieldset class="dados-usuario">
             <div>
-                <label for="help"><strong>Criticas,duvidas ou elogios</strong></label>
+                <label for="help"><strong>Em que podemos ajudar ?</strong></label>
                 <input type="checkbox" id="produtos" value="produtos">
                 <label for="produtos">Produtos</label>
                 <input type="checkbox" id="valores" value="valores">
@@ -96,10 +84,11 @@
         <div>
             <br>
             <label for=""></label>
-            <textarea name="duvida" id="duvida" cols="30" rows="20" style="width: 25em"></textarea>
+            <textarea name="duvida" id="duvida" cols="15" rows="15" style="width: 25em"></textarea>
         </div>
         <button class="btn" type="submit">Enviar</button>
     </form>
+    
 </body>
 <footer>
     <!-- Parte das redes-->

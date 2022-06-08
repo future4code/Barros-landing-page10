@@ -1,96 +1,54 @@
-*{
-    margin: 0;
-    padding: 0;
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
-#titulo{
-    font-family: sans-serif;
+#title{
+    flex-direction: column;
+    line-height: 10px;
     color: white;
-    margin-left: 5%;
 }
-#sub-titulo{
-    font-family: sans-serif;
+li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
     color: white;
-    margin-left: 5%;
 }
-fieldset{
-    border: 0;
+
+a:hover{
+    color: rgb(166, 229, 109);
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn{
+    border: 2px solid rgb(166, 229, 109);
+    padding: 10px;
+    border-radius: 15px;
+}
+.inscreva-se-btn:hover{
+    background-color: rgb(166, 229, 109);
+    color: white;
 }
 body{
+    background-color:rgb(59, 79, 102);
     background-image: url(IMG/4safe.png);
     background-repeat: no-repeat;
-    background-size: 100%;
-    font-size: 1em;
-    display: grid;
-    align-items: center;
-    justify-content: space-around;
-     
-     
+    background-position: 85%;
 }
-input,textarea,button{
-    border-radius: 5px;
-
-}
-div{
-    margin-bottom: 1em;
-}
-label{
-    margin-bottom: 0.3em;
-    color: white;
-}
-fieldset{
-    float: left;
-    margin-right: 1em;
-}
-input,textarea{
-    padding: 0.2em;
-border: 1px solid white;
-box-shadow: 1px 1px 1px 1px;
-display: block;
-}
-button{
+.btn{
     border: 2px solid rgb(166, 229, 109);
     padding: 10px;
     border-radius: 15px;
- background-color: rgb(166, 229, 109);
 }
-
-button:hover{
+.btn:hover{
     background-color: rgb(166, 229, 109);
     color: white;
-
 }
 
-.redes-sociais{
-    font-family: sans-serif;
-    margin-left: 15%;
-    border: 2px 2px 2px 2px;
-    color: aliceblue;
-}
-.Titulo-empresa{
-    color: rgb(166, 229, 109);
-    display: grid;
-    justify-content: flex-start;
    
-    
-}
-.navegação-pr { 
-    color: white;
-    display: flex;
-    justify-content: right;
-    align-items: row;
-    justify-content: space-between;
 
-}
-.inscreva{
-    border: 2px solid rgb(166, 229, 109);
-    padding: 10px;
-    border-radius: 15px;
-    display: flex;
-}
-.inscreva:hover{
-    background-color: rgb(166, 229, 109);
-    color: white;
-}
-footer{
-    justify-content: baseline;
+.contato-form{
+    color:  rgb(166, 229, 109);
 }
