@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2? família=Roboto&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(59, 79, 102);
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team{
+   
+}
+.team-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 8rem;
+}
+.team-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.team-list li{
+    list-style-type: none;
+}
+.team-figure{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.team-figure img{
+    width: 100%;
+    filter: grayscale(100%);
+}
+.team-link:hover 
+.team-figure img{
+    filter: none;
+}
+.team-description{
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+.team-description:target{
+    display: block;
+}
+.team-name-1{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-left: 3rem;   
+}
+.team-name-2{
+    text-transform: uppercase;
+    font-size: 20px;
+    display: flex;
+    margin-top: 1rem; 
+    margin-bottom: 2rem;
+    margin-left: 15rem; 
+}
+.team-name-3{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 3rem;   
+}
