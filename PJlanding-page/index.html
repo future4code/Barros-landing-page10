@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles/style.css" rel="stylesheet">
+    <link href="/styles/fonts.css" rel="stylesheet">
+    <link href="/styles/media.css" rel="stylesheet">
+    <title>Landing Page</title>
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1>4SAFE</h1>
+            <h1>SEGUROS</h1>
+        </div>
+
+        <ul>
+            <a href="#"><li>Início</li></a>
+            <a href="#"><li>Serviços</li></a>
+            <a href="#"><li>Sobre</li></a>
+            <a href="#"><li>Contato</li></a>
+            <a href="#"><li>Formulario</li></a>
+            <a href="#" id="inscreva-se-btn"><li>Já tem uma conta?</li></a>
+        </ul>
+    </header>
+
+    <main>
+        <!-- Formulario-->
+
+<section class="Formulario">
+    <div>
+        <h1 id="contato-form">Formulario de contato</h1>
+        <p id="info"><strong>Preencha suas informações</strong></p>
+        <br>
+    </div>
+    <form action="">
+        <fieldset class="dados-usuario">
+            <div>
+                <!-- Parte dos textos-->
+                <label for="Nome"><strong>Nome :</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div>
+                <label for="Sobrenome"><strong>Sobrenome :</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+            <div>
+                <label for="Telefone"><strong>Telefone :</strong></label>
+                <input type="number" name="celular" id="Celular" required>
+            </div>
+        </fieldset>
+        <div>
+            <label for="Email"><strong>Email :</strong></label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <!-- Parte dos radios-->
+            <label for="geneer"><strong>Seu gênero :</strong></label>
+            <label for="">
+                <input type="radio" name="masc" value="masculino">Masculino
+            </label>
+            <label for="">
+                <input type="radio" name="fem" value="feminino">Feminino
+            </label>
+            <label for="">
+                <input type="radio" name="nao-dc" value="nao-dc">Não declarar
+            </label>
+        </div>
+        <!-- Parte dos checkbox-->
+        <fieldset class="dados-usuario">
+            <div>
+                <label for="help"><strong>Em que podemos ajudar ?</strong></label>
+                <input type="checkbox" id="produtos" value="produtos">
+                <label for="produtos">Produtos</label>
+                <input type="checkbox" id="valores" value="valores">
+                <label for="valores">Cobrança indevida</label>
+                <input type="checkbox" id="n-recibo" value="n-recibo">
+                <label for="n-recibo">Não recebi o seguro</label>
+                <input type="checkbox" id="critita" value="critica">
+                <label for="crit">Critica</label>
+                <input type="checkbox" id="elogio" value="elogio">
+                <label for="praise">Elogio</label>
+                <input type="checkbox" id="outros" value="outros">
+                <label for="outros">Outros</label>
+            </div>
+        </fieldset>
+        <div>
+            <br>
+            <label for=""></label>
+            <textarea name="duvida" id="duvida" cols="15" rows="15" style="width: 25em"></textarea>
+        </div>
+        <button class="btn" type="submit">Enviar</button>
+    </form>
+
+</section>
+        <!---------ESCREVA AQUI SEU CÓDIGO---------->
+
+
+
+    </main>
+    <footer>
+
+         <!---------AREA DESTINADA PARA RODAPÉ---------->
+
+    </footer>
+</body>
+</html> 
