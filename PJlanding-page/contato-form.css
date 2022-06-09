@@ -52,3 +52,14 @@ body{
 .contato-form{
     color:  rgb(166, 229, 109);
 }
+fieldset{
+    border: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px ;
+    border-color: green;
+}
+label{
+    border-radius: 3px 3px 3px 3px;
+    padding: 3px 3px;
+    color: aliceblue;
+    box-shadow: rgb(166, 229, 109);
+}
