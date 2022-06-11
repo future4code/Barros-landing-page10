@@ -7,7 +7,7 @@
     <link href="/styles/style.css" rel="stylesheet">
     <link href="/styles/fonts.css" rel="stylesheet">
     <link href="/styles/media.css" rel="stylesheet">
-    <link href="/styles/team.css" rel="stylesheet">
+    <link href="/styles/team.css"  rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2? família=Roboto&display=swap" rel="stylesheet">
@@ -30,58 +30,99 @@
     </header>
 
     <main>
-        
-        <!---------ESCREVA AQUI SEU CÓDIGO---------->
-        <div class="container">
-            <section class="team">
-                <h1 class="team-title">Nossa Equipe</h1>
-                <ul class="team-list">
-                    <li>
-                        <a class="team-link" href="#firts">
-                            <figure class="team-figure">
-                                <img src="../img/perfil.webp" alt="">
-                            </figure>
-                         </a>
-                    </li>
-                    <li>
-                        <a class="team-link" href="#second">
-                            <figure class="team-figure">
-                                <img src="../img/perfil-mauricio.jpg" alt="">
-                            </figure>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="team-link" href="#third">
-                            <figure class="team-figure">
-                                <img src="../img/perfil.webp" alt="">
-                            </figure>
-                        </a>
-                    </li>
-                </ul>
-                <div class="team-description" id="firts">
-                    <p class="team-name-1">Juliano Manzano</p>
-                    <p class="team-description-user">Eu sou Juliano Manzano Engenheiro Eletricista da MZN Engenharia, sou estudante de graduação em Engenharia Civil pela FMU, desenvolvo projetos hardware com codigos em c++ e armazenamento de dados, estudante de desenvolvimento e programação web pela LABENU.</p>
-                </div>
-    
-                <div class="team-description" id="second">
-                    <p class="team-name-2">Maurício Luiz de Toledo</p>
-                    <p class="team-description-user">Eu sou Maurício Luiz de Toledo, Recepcionista no aeroporto, sou estudante de Educação física e desenvolvedor e programador web pela LABENU. sou Gamer e fã de Animes.</p>
-                </div>
-    
-                <div class="team-description" id="third">
-                    <p class="team-name-3">Ricardo Barros</p>
-                    <p class="team-description-user">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-    
-            </section>
+
+        <!---------ESCREVA CÓDIGO AQUI---------->
+
+<!-------------------------------------------INICIO SECTION SOBRE---------------------------------------->
+        <!--SOBRE CARD ANIMADO-->
+        <div class="equipe">
+            <h2>Nossa Equipe</h2>
         </div>
+        
+        <div class="container-sobre">
+            
+            <!--card 1-->
+            <div class="card card-1">
+                <!--card content reader-->
+                <div class="content">
+                    <img src="img/perfil-juliano.jpg" alt="imagem card">
+                </div>
+                <!--card content reader-->
+                <!--card body-->
+                <div class="card-body">
+                    <h4 class="function">Designer</h4>
+                    <h3 class="name">Juliano Manzano</h3>
+                    <p>Juliano César Pereira Manzano, Engenheiro Eletricista, estudante de Engenharia Civil e programação e desenvolvimento web na LABENU. Adora montar coisas "Hardwares" e assistir séries.</p>
+                </div>
+                <!--card body-->
+                <!--card footer-->
+                <div class="card-footer">
+                    <a href="https://github.com/JulianoManzano">Ver Mais</a>
+                </div>
+                <!--card footer-->
+            </div>
+            <!--card 1-->
 
 
-    </main>
+             <!--card 2-->
+             <div class="card card-1">
+                <!--card content reader-->
+                <div class="content">
+                    <img src="img/perfil-mauricio.jpg" alt="imagem card">
+                </div>
+                <!--card content reader-->
+                <!--card body-->
+                <div class="card-body">
+                    <h4 class="function">Programador</h4>
+                    <h3 class="name">Mauricio Toledo</h3>
+                    <p>Mauricio Luiz de Toledo, recepcionista no aeroporto da GRU-SP, estudante de Graduação em Educação Fisica e programação. Adora jogos, é gamer e fã de ANIMES.</p>
+                </div>
+                <!--card body-->
+                <!--card footer-->
+                <div class="card-footer">
+                    <a href="https://github.com/mlt3800">Ver Mais</a>
+                </div>
+                <!--card footer-->
+            </div>
+            <!--card 2-->
+
+
+             <!--card 3-->
+             <div class="card card-1">
+                <!--card content reader-->
+                <div class="content">
+                    <img src="img/perfil-ricardo.jpg" alt="imagem card">
+                </div>
+                <!--card content reader-->
+                <!--card body-->
+                <div class="card-body">
+                    <h4 class="function">Desenvolvedor</h4>
+                    <h3 class="name">Ricardo Barros</h3>
+                    <p>Ricardo Barros, Taxista na grande São Paulo, é Corinthiano e estudante de programação e desenvolvimento para web na LABENU, &hearts; Há e é papai recente &hearts;</p>
+                </div>
+                <!--card body-->
+                <!--card footer-->
+                <div class="card-footer">
+                    <a href="https://github.com/Ricardoteleco">Ver Mais</a>
+                </div>
+                <!--card footer-->
+            </div>
+            <!--card 3-->
+        </div>
+<!-------------------------------------------FIM SECTION SOBRE---------------------------------------->
+    
+
+<!---------ESCREVA CÓDIGO AQUI---------->
+
+</main>
     <footer>
 
          <!---------AREA DESTINADA PARA RODAPÉ---------->
 
     </footer>
+    <script type="text/javascript" src="baunilha-inclinacao.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"));
+    </script>
 </body>
 </html>
