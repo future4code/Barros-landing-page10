@@ -1,0 +1,25 @@
+section{
+    background-color: rgb(59, 79, 102);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+h1:hover{
+    color: green;
+}
+input{
+    margin-top: 12px;
+    height: 16px;
+    padding: 13px;
+    border-radius: 18px;
+    border: none;
+    font-size: 12px;
+}
+button{
+    border: 2px solid rgb(166, 229, 109);
+    padding: 10px;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: rgb(166, 229, 109);
+    color: white;
+}
